@@ -28,7 +28,7 @@ header p{
     margin-right:auto;
     font-size: 1.5rem;
     color: #4ec5af;
-    font-family: 'roboto mono';
+    font-family: 'Roboto mono';
     cursor: pointer;
 }
 nav li{
@@ -52,20 +52,47 @@ button{
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
-button:hover{
+button.contact:hover{
     background-color:#112240;
 }
 
-
-
-/*Banner*/
-.banner{
-    display:flex;
-    justify-content: center;
-    align-items: flex-start;
+.menuButton{
+    display: block;
+    height: 26px;
+    width: 32px;
+    padding: 0 20px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+  
 }
 
+.menuButton div{
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background: #4ec5af;
+}
+.dropdown{
+    display:none;
+}
 
-.banner h1{
+/*Banner*/
+
+.banner{
+    font-family: "Roboto mono", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bigHeader{
+    font-size: 3rem;
     color: #ccd6f6;
+}
+
+.a{
+    color: #8892af;
 }
