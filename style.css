@@ -1,0 +1,71 @@
+body{
+    background-color: #0b192f;
+}
+
+.main{
+    padding: 0 100px;
+    display: flex;
+    justify-content: center;
+}
+
+/*Nav*/
+
+li, a{
+    font-family:'Roboto Mono', sans-serif;
+    font-size: 16px;
+    color:#8892af;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding:10px 5%;
+}
+header p{
+    margin-right:auto;
+    font-size: 1.5rem;
+    color: #4ec5af;
+    font-family: 'roboto mono';
+    cursor: pointer;
+}
+nav li{
+    display: inline-block;
+    padding:0 20px;
+}
+
+li a{
+    transition: all 0.3s ease 0s;
+}
+li a:hover{
+   color:#4ec5af;
+}
+
+button{
+    color:#4ec5af;
+    padding:9px 25px;
+    background-color:rgba(11,25,47,1);
+    border:solid 1px #4ec5af ;
+    border-radius:50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color:#112240;
+}
+
+
+
+/*Banner*/
+.banner{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.banner h1{
+    color: #ccd6f6;
+}
