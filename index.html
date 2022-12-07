@@ -5,32 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-<link href="./style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
     <title>Torran Stock - Web Developer</title>
 </head>
 
-<body>
+<body> 
  <header>
-    <p>TS</p>
-    <nav>
-        <ul>
-            <li><a href='#'>HOME</a></li>
-            <li><a href='#'>MY WORK</a></li>
-            <li><a href='#'>SOCIALS</a></li>
+    <nav class="nav-bar">
+        <a href="#" class="logo">TS</a>
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li classs="nav-item"><a href="#" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
         </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        
     </nav>
-    <button class="contact">Contact</button>
-    <div class="menuButton">
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
-    <div class="dropdown">Hello</div>
  </header>
 
- 
+ <main>
  <section class="banner">
 <div class="box">
     <h4 class="myName">Hi, my name is</h4>
@@ -55,7 +54,10 @@
 <div class="contact">
     <h2>Get in touch</h2>
 </div>
+ </main>
+
 <footer>
 </footer>
+<script src="./index.js"></script>   
 </body>
 </html>

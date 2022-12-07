@@ -1,7 +1,13 @@
-const eventTarget = document.getElementsByClassName('dropdown')
+const hamburger = document.querySelector('.hamburger')
+const navMenu = document.querySelector('.nav-menu')
 
-function showDropdown(){
-    eventTarget.style.display = 'block'
-}
+hamburger.addEventListener('click', ()=>{
+    hamburger.classList.toggle('active');
+    navMenu.classList.toggle('active');
+})
 
-eventTarget.onclick = showDropdown
+document.querySelectorAll('.nav-link').forEach(n => 
+    n.addEventListener('click', () => {
+    hamburger.classList.remove('active');
+    navMenu.classList.remove('active');
+}))
